@@ -1,0 +1,1 @@
+export type FontIcon = "pencil" | "download" | "hamburger" | "bell" | "check" | "squares" | "config" | "ellipsis-x" | "ellipsis-y" | "search" | "plus" | "share" | "user" | "close" | "heart" | "like" | "trash" | "chevron" | "arrow-rectangle" | "squares" | "card" | "deposit" | "banknotes" | "truck" | "dollar" | "light-bulb" | "shopping-cart";

@@ -1,0 +1,871 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+:root {
+  --base-color: #fff;
+  --contrast-color: #000;
+  --primario-800-color: #1c294a;
+  --primario-800-90-color: #1c294a90;
+  --primario-700-color: #2E4C99;
+  --primario-500-color: #479BFF;
+  --neutro-500-color: #e7e7e7;
+  --gray-100-color: #f1f1f1;
+  --gray-100-50-color: #f1f1f180;
+  --acento-500-color: #ff6581;
+}
+
+.nova-button-base, .nova-icon-button, .nova-button {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  outline: none;
+  user-select: none;
+  appearance: none;
+}
+.nova-button-base:hover, .nova-icon-button:hover, .nova-button:hover {
+  cursor: pointer;
+}
+
+.nova-button {
+  border-radius: 5px;
+  padding: 0 16px;
+  height: 36px;
+  min-width: 64px;
+  background-color: var(--primario-700-color);
+  color: white;
+  transition: 0.3s all;
+  overflow: hidden;
+}
+.nova-button:hover {
+  background: var(--primario-500-color);
+}
+.nova-button:focus {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.nova-button-ripple {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  background-color: var(--gray-100-50-color);
+  width: 20%;
+  aspect-ratio: 1/1;
+}
+
+.nova-icon-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: 0.4s all;
+}
+.nova-icon-button:hover {
+  background-color: var(--neutro-500-color);
+}
+
+nova-icon {
+  width: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+nova-icon.rotate {
+  transform: rotate(180deg);
+}
+
+nova-table {
+  display: block;
+  overflow: auto;
+  max-height: 100%;
+}
+nova-table table.table {
+  border-collapse: separate;
+  border-spacing: 0px;
+  width: 100%;
+}
+nova-table table.table thead.table__thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+nova-table table.table th {
+  text-align: center;
+  background: var(--neutro-500-color);
+  padding: 11px 30px;
+  color: var(--contrast-color);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+}
+nova-table table.table th:last-of-type {
+  border-right: none;
+}
+nova-table table.table td {
+  border-bottom: 1.5px solid var(--neutro-500-color);
+  font-weight: 500;
+  text-align: center;
+  padding: 5px;
+  color: var(--contrast-color);
+}
+
+nova-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 220px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--primario-800-color);
+  overflow: hidden;
+}
+nova-nav .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+nova-nav .container .profile {
+  padding: 15px 0;
+  display: grid;
+  place-items: center;
+}
+nova-nav .container .profile .profile__picture {
+  width: 96px;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  background-color: var(--base-color);
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+nova-nav .container .profile .profile__picture .profile__letter {
+  color: var(--primario-800-color);
+  font-size: 50px;
+}
+nova-nav .container .profile .profile__picture .profile__edit-icon {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: var(--base-color);
+  background-color: var(--primario-700-color);
+  border: 2px solid var(--primario-800-color);
+  transition: 0.3s all;
+}
+nova-nav .container .profile .profile__picture .profile__edit-icon:hover {
+  cursor: pointer;
+  background-color: var(--primario-500-color);
+}
+nova-nav .container .profile .profile__picture .profile__edit-icon nova-icon {
+  width: 16px;
+}
+nova-nav .container .profile .app-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--base-color);
+}
+nova-nav .container .profile .user-name {
+  margin-top: 5px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--base-color);
+}
+nova-nav .container nav {
+  flex-grow: 1;
+  overflow: hidden;
+  color: var(--base-color);
+  user-select: none;
+}
+nova-nav .container nav .list {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 58.3333333333%;
+}
+nova-nav .container nav .list::-webkit-scrollbar {
+  display: none;
+}
+nova-nav .container nav .list .list__item .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  padding: 0 8px 0 24px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+nova-nav .container nav .list .list__item .item.active {
+  background-color: var(--primario-500-color);
+}
+nova-nav .container nav .list .list__item .item:hover:not(.active):not(.collapsable) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+nova-nav .container nav .list .list__item .item.collapsable {
+  background: var(--acento-500-color);
+}
+nova-nav .container nav .list .list__item .item .item__left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+nova-nav .container nav .list .list__item .item .item__left .item__text {
+  font-weight: 400;
+}
+nova-nav .container nav .list .list__item .sublist {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: hidden;
+  animation: 0.5s slidedown ease-out;
+}
+nova-nav .container nav .list .list__item .sublist.hidden {
+  display: none;
+}
+nova-nav .container nav .list .list__item .sublist .sublist__option {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  gap: 8px;
+  border-radius: 8px;
+}
+nova-nav .container nav .list .list__item .sublist .sublist__option:hover {
+  cursor: pointer;
+}
+nova-nav .container nav .list .list__item .sublist .sublist__option:hover:not(.active) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+nova-nav .container nav .list .list__item .sublist .sublist__option.active {
+  background-color: var(--primario-500-color);
+}
+nova-nav .container nav .list .list__item .sublist .sublist__option .option__text {
+  font-weight: 400;
+}
+nova-nav .container nav .list-extend {
+  height: 41.6666666667%;
+}
+nova-nav .container nav .list-extend .line {
+  width: 80%;
+  height: 2px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: var(--base-color);
+}
+nova-nav .container .bottom-content {
+  padding: 5px 20px 30px 20px;
+}
+nova-nav .container .bottom-content .button-logout {
+  width: 100%;
+  gap: 5px;
+  font-size: 14px;
+  color: var(--base-color);
+}
+nova-nav .container .bottom-content .info-session {
+  margin-top: 10px;
+  color: var(--base-color);
+}
+nova-nav .container .bottom-content .info-session h5,
+nova-nav .container .bottom-content .info-session p {
+  margin: 0;
+  font-size: 12px;
+}
+nova-nav .toggle-nav {
+  position: fixed;
+  border: none;
+  color: var(--base-color);
+  background: var(--primario-800-90-color);
+  z-index: 3;
+  top: 0;
+  left: 0;
+  aspect-ratio: 1/1;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+nova-nav .toggle-nav:hover {
+  background-color: var(--primario-800-color);
+}
+nova-nav .toggle-nav:focus {
+  outline: none;
+}
+
+nova-nav-container .content {
+  margin-left: 220px;
+}
+
+nova-modal {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nova-modal .modal__container {
+  min-width: 400px;
+  position: relative;
+  background-color: var(--base-color);
+  border-radius: 20px;
+  padding: 80px 72px 48px 72px;
+  animation: slideup 0.7s;
+}
+nova-modal .modal__container .modal__close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+nova-modal .modal__container .modal__close nova-icon {
+  width: 32px;
+  cursor: pointer;
+}
+nova-modal .modal__container .modal__content {
+  height: 100%;
+}
+
+nova-tab-group .tab-header {
+  display: inline-flex;
+  position: relative;
+}
+nova-tab-group .tab-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+nova-tab-group .tab-header .tab {
+  width: 200px;
+  height: 38px;
+  font-weight: 600;
+  user-select: none;
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+nova-tab-group .tab-header .tab:hover {
+  cursor: pointer;
+  background-color: var(--gray-100-color);
+}
+nova-tab-group .tab-header .tab.active {
+  color: var(--primario-800-color);
+}
+nova-tab-group .tab-header .tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto auto 0 auto;
+  height: 3px;
+  background-color: var(--primario-800-color);
+  animation: 0.2s expand ease-in;
+}
+
+nova-select {
+  position: relative;
+  display: inline-flex;
+  min-width: 100px;
+  color: rgb(97, 97, 97);
+}
+nova-select .select {
+  flex: 1;
+  max-width: 100%;
+}
+nova-select .select .selected {
+  border-radius: 8px;
+  background-color: var(--base-color);
+  padding: 10px 10px 10px 15px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  user-select: none;
+}
+nova-select .select .selected:hover:not(.active) {
+  cursor: pointer;
+}
+nova-select .select .selected * {
+  pointer-events: none;
+}
+nova-select .select .selected .selected-value {
+  font-weight: 500;
+}
+nova-select .options {
+  margin-top: 4px;
+  padding: 8px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  position: absolute;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  background-color: var(--base-color);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+nova-select .options .option {
+  padding: 8px 8px 8px 15px;
+  user-select: none;
+}
+nova-select .options .option * {
+  pointer-events: none;
+}
+nova-select .options .option:hover:not(.active) {
+  cursor: pointer;
+  background-color: rgba(165, 165, 165, 0.2);
+}
+nova-select .options .option.active {
+  background-color: rgba(165, 165, 165, 0.2);
+}
+
+[nova-input] {
+  display: inline-flex;
+  border-radius: 8px;
+  background-color: var(--base-color);
+  padding: 10px 10px 10px 15px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  color: rgb(97, 97, 97);
+  border: none;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--neutro-500-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primario-500-color);
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  appearance: none;
+  margin: 0;
+  padding: 0px;
+}
+
+/********************************
+KEYFRAMES
+********************************/
+@keyframes expand {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes grow {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes slideup {
+  0% {
+    transform: translateY(40%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slidedown {
+  0% {
+    transform: translateY(-40%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
